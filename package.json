@@ -1,0 +1,15 @@
+{
+	"name": "electron-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "electron . && node proxy.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"electron": "^15.1.2",
+		"http-mitm-proxy": "^0.9.0"
+	}
+}
